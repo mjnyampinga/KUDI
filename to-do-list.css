@@ -1,9 +1,15 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-}
+            background-image: url("images\background.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 140vh;
+            background-image: url("images/background.jpg");
+        }
 
 .container {
     max-width: 800px;
@@ -17,7 +23,7 @@ h1 {
 
 #loginContainer, #registerContainer, #todoContainer {
     background-color: black;
-    border: 1px solid greenyellow;
+    border: 1px solid mediumorchid;
     border-radius: 5px;
     padding: 20px;
     margin: 20px 0;
@@ -37,7 +43,7 @@ input {
 }
 
 button {
-    background-color: greenyellow;
+    background-color: blueviolet;
     color: black;
     padding: 10px 15px;
     border: none;
@@ -46,7 +52,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: blue;
 }
 
 a {
